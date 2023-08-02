@@ -44,6 +44,11 @@ import {
     race,
     arbook,
     games,
+    ardunkvid,
+  racevid,
+  arbookvid,
+  quillvid,
+  gamesvid,
   } from "../assets";
   
   export const navLinks = [
@@ -251,7 +256,7 @@ import {
         },
       ],
       image: ardunk,
-      videoSrc: "src/assets/ardunk.mp4",
+      videoSrc: ardunkvid,
       source_code_link: "https://github.com/",
     },
     {
@@ -273,7 +278,7 @@ import {
         },
       ],
       image: race,
-      videoSrc: "src/assets/race.mp4",
+      videoSrc: racevid,
       source_code_link: "https://github.com/",
     },
     {
@@ -295,7 +300,7 @@ import {
         },
       ],
       image: arbook,
-      videoSrc: "src/assets/arbook.mp4",
+      videoSrc: arbookvid,
       source_code_link: "https://github.com/",
     },
     
@@ -318,7 +323,7 @@ import {
         },
       ],
       image: quill,
-      videoSrc: "src/assets/quill-revenge.mp4",
+      videoSrc: quillvid,
       source_code_link: "https://bumchikiboss.itch.io/",
     },
     {
@@ -340,7 +345,7 @@ import {
         },
       ],
       image: games,
-      videoSrc: "src/assets/games.mp4",
+      videoSrc: gamesvid,
       source_code_link: "https://github.com/",
     },
   ];

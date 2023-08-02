@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo3.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -55,9 +55,22 @@ import race from "./race.png";
 import arbook from "./arbook.png";
 import games from "./games.png";
 
+import ardunkvid from "./ardunk.mp4";
+import racevid from "./race.mp4";
+import arbookvid from "./arbook.mp4";
+import quillvid from "./quill-revenge.mp4";
+import gamesvid from "./games.mp4";
+
+
+
 
 
 export {
+  ardunkvid,
+  racevid,
+  arbookvid,
+  quillvid,
+  gamesvid,
   logo,
   backend,
   creator,
