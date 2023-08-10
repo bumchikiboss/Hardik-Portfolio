@@ -49,6 +49,8 @@ import {
   arbookvid,
   quillvid,
   gamesvid,
+  senti,
+  sentivid,
   } from "../assets";
   
   export const navLinks = [
@@ -80,7 +82,7 @@ import {
       icon: ai,
     },
     {
-      title: "X - Developer",
+      title: "Web Development",
       icon: browser,
     },
   ];
@@ -148,10 +150,9 @@ import {
       iconBg: "white",
       date: "July 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responsible for play testing and script editing on the AI Drone Path Finding project.",
+        "Created a Character + Drone Controller.",
+        "Created Autonomous Drone Controller with Simple Path Finding.",
       ],
     },
     {
@@ -159,12 +160,12 @@ import {
       company_name: "XRDigitech Global Pvt. Ltd.",
       icon: xrd,
       iconBg: "white",
-      date: "July 2022 - December 2022",
+      date: "July 2022 - January 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a 2D - Top Down Shooter Game.",
+        "Developed an AR Basketball experience with features like Ball physics, Net Simulation and AR implementation.",
+        "Developed an AR Racing experience with features like Car controller/physics and AR implementation.",
+        "Provided support on Christmas AR project which was showcased in a tech fair.",
       ],
     },
     {
@@ -172,11 +173,12 @@ import {
       company_name: "Zscaler",
       icon: zscaler,
       iconBg: "#0076BE",
-      date: "Feb 2023 - Present",
+      date: "February 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Learned Drupal CMS and followed best Drupal Practices and collaborated with the Backend team, Frontend team and QA team on the projects",
+        "Provided support in R&D, Bug Fixing and implementing functionalities while following best security practices as working with a security company.",
+        "Provided support on Upgrading Drupal 9 to Drupal 10 with the Contrib and Custom modules.",
+        "Provided Documentation on site-portal, backend processes and automating git leaks.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -208,32 +210,32 @@ import {
     //},
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     testimonial:
+  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //     name: "Sara Lee",
+  //     designation: "CFO",
+  //     company: "Acme Co",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //     name: "Chris Brown",
+  //     designation: "COO",
+  //     company: "DEF Corp",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //     name: "Lisa Wang",
+  //     designation: "CTO",
+  //     company: "456 Enterprises",
+  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  //   },
+  // ];
   
   const projects = [
     
@@ -348,6 +350,28 @@ import {
       videoSrc: gamesvid,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Sentiment Analysis",
+      description:
+      "Twitter sentiment analysis projects using Twitter extraction and Kaggle database. Deep dive into Ukraine & Russia war Twitter sentiment analysis with lots of graph study.",
+      tags: [
+        {
+          name: "NumPy, Pandas & NLTK",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Kaggle",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: senti,
+      videoSrc: sentivid,
+      source_code_link: "https://github.com/",
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

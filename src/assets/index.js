@@ -54,18 +54,24 @@ import ardunk from "./ardunk.png";
 import race from "./race.png";
 import arbook from "./arbook.png";
 import games from "./games.png";
+import senti from "./senti.png";
+
 
 import ardunkvid from "./ardunk.mp4";
 import racevid from "./race.mp4";
 import arbookvid from "./arbook.mp4";
 import quillvid from "./quill-revenge.mp4";
 import gamesvid from "./games.mp4";
+import sentivid from "./senti.mp4";
+
 
 
 
 
 
 export {
+  senti,
+  sentivid,
   ardunkvid,
   racevid,
   arbookvid,
